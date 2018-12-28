@@ -22,20 +22,22 @@ ol, ul {
     background: #14bdac;
     border: 5px solid #0da192;
     float: left;
-    font-size: 100px;
+    font-size: 5vw;
     font-weight: bold;
     line-height: 34px;
-    height: 150px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 150px;
+    height: 20vw;
+    width: 20vw;
+    max-height: 150px;
+    max-width: 150px;
 }
 
 .square:focus {
     outline: none;
-    background: rgb(21,202,184);
+    background: rgb(21, 202, 184);
 }
 
 .kbd-navigation .square:focus {
@@ -49,4 +51,34 @@ ol, ul {
 
 .game-info {
     margin-left: 20px;
+}
+
+@media all and (min-width: 960px) {
+    h3 {
+        font-size: 20px;
+    }
+
+    .square {
+        font-size: 5vw;
+    }
+}
+
+@media all and (max-width: 959px) and (min-width: 600px) {
+    h3 {
+        font-size: 3vw;
+    }
+
+    .square {
+        font-size: 14vw;
+    }
+}
+
+@media all and (max-width: 599px) and (min-width: 50px) {
+    h3 {
+        font-size: 4vw;
+    }
+
+    .square {
+        font-size: 10vw;
+    }
 }

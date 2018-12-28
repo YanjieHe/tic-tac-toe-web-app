@@ -203,7 +203,8 @@ class Board extends React.Component {
             <div>
                 {/*<h3>Next player: {this.state.nextX ? 'X' : 'O'}</h3>*/}
                 <legend>
-                    <span style={{float: "left"}}>PLAYER (X)</span><span style={{float: "right"}}>COMPUTER (O)</span>
+                    <span style={{float: "left"}}><h3>PLAYER (X)</h3></span>
+                    <span style={{float: "right"}}><h3>COMPUTER (O)</h3></span>
                 </legend>
                 <table className="table">
                     <thead>
