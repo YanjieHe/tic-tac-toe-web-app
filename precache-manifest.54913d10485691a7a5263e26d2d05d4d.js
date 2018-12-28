@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/tic-tac-toe-web-app/static/js/runtime~main.bcd4ca21.js"
   },
   {
-    "revision": "0e23bf40cf48b05ea3be67f8219b772c",
+    "revision": "749af6b4abf8ed39212af466f8354ec6",
     "url": "/tic-tac-toe-web-app/index.html"
   }
 ];
